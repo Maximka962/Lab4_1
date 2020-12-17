@@ -30,7 +30,7 @@ public class MainFrame extends JFrame{
     private JCheckBoxMenuItem showGridMenuItem;
     private JCheckBoxMenuItem showMarkersMenuItem;
 
-    private GraphicsDisplay display = new GraphicsDisplay();//готовлюсь изменить код!!!!!
+    private GraphicsDisplay display = new GraphicsDisplay();//так и не смог этого сделать(((((
 
     private boolean fileLoader = false;
 

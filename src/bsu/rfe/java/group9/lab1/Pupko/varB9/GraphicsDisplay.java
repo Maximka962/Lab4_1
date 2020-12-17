@@ -59,7 +59,7 @@ public class GraphicsDisplay extends JPanel {
 
     public void showGraphics(Double[][] graphicsData){
 
-        this.graphicsData = graphicsData;//Все еще готовлюсь(потому что код почти и готов так то)
+        this.graphicsData = graphicsData;//И даже тут
 
         repaint();
     }
