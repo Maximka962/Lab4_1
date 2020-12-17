@@ -159,6 +159,7 @@ public class GraphicsDisplay extends JPanel {
     protected void paintGrid(Graphics2D canvas){
 
         canvas.setStroke(gridStroke);
+
         int tempY = 0;
         for(double i = minY; i < maxY-0.5f; i += (maxY-minY)/100){
 
@@ -178,7 +179,10 @@ public class GraphicsDisplay extends JPanel {
 
         int tempX = 0;
         for(double i = minX; i < maxX-0.5f; i += (maxX-minX)/100){
+            if(i==maxX/2)
+            {
 
+            }
             tempX++;
             if(tempX % 5 == 0) {
 
